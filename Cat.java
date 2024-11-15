@@ -74,15 +74,15 @@ public class Cat implements Contract {
             System.out.println("It shows feathers.");
             System.out.println("It has two feets...");
             System.out.println("It has two wings...");
-            System.out.println("It's a chicken!! Yum yum yum");
+            System.out.println("It's a chicken!! Yum yum yum.");
         }
         if(item.equals("Fish")||item.equals("fish")){
             System.out.println("It is shinny.");
             System.out.println("It has scale.");
             System.out.println("It has tail.");
-            System.out.println("It's a fish!! Yum yum yum");
+            System.out.println("It's a fish!! Yum yum yum.");
         }else{
-            System.out.println("I am not interested in this");
+            System.out.println("I am not interested in this.");
         }
     }
 
