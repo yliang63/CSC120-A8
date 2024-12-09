@@ -56,6 +56,7 @@ public class Cat implements Contract {
      * Remove the item from the list of the items.
      * 
      * @param item The item for the cat to drop.
+     * @return The removed item, if not found, return null.
      */
     public String drop(String item){
         items.remove(item);
